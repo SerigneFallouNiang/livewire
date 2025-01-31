@@ -8,6 +8,7 @@ class Light extends Component
 {
     public $brightness = 10;
 
+    
     public function off()
     {
         $this->brightness = 0;
